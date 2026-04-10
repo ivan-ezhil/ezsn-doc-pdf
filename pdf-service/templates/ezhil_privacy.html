@@ -1,0 +1,38 @@
+<style>
+    ol {
+  counter-reset: section;                /* Reset counter for each list */
+  list-style-type: none;
+}
+li::before {
+  counter-increment: section;            /* Increment counter */
+  content: counters(section, ".") ". ";  /* Display as 1.1, 1.1.1, etc. */
+}
+</style>
+<div style="width:100%; font-size:10px;">
+    <p style="color:blue; margin-bottom:10px;font-size:12px">PRIVACY POLICY</p>
+
+    <ol style="padding-left:15px;  line-height:1.6;">
+        <li>We value your privacy and are committed to protecting your personal information. Any data collected during this transaction is used strictly for billing and service purposes.</li>
+        <li>We do not share your information with third parties without your consent,
+        except where required by law.</li>
+        <li>By using our services, you agree to our privacy practices.</li>
+        <li>
+            <ol style="padding-left:15px; line-height:1.6;">
+        <li>We value your privacy and are committed to protecting your personal information. Any data collected during this transaction is used strictly for billing and service purposes.</li>
+        <li>We do not share your information with third parties without your consent,
+        except where required by law.</li>
+        <li><ol style="padding-left:15px; line-height:1.6;">
+        <li>We value your privacy and are committed to protecting your personal information. Any data collected during this transaction is used strictly for billing and service purposes.</li>
+        <li>We do not share your information with third parties without your consent,
+        except where required by law.</li>
+        <li><ol style="padding-left:15px; line-height:1.6;">
+        <li>We value your privacy and are committed to protecting your personal information. Any data collected during this transaction is used strictly for billing and service purposes.</li>
+        <li>We do not share your information with third parties without your consent,
+        except where required by law.</li>
+        <li>By using our services, you agree to our privacy practices.</li>
+    </ol></li>
+    </ol></li>
+    </ol>
+        </li>
+    </ol>
+</div>

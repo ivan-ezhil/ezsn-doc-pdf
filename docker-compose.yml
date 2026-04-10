@@ -1,0 +1,15 @@
+services:
+
+  # fastapi:
+  #   build: ./fastapi-app
+  #   container_name: fastapi-app
+  #   ports:
+  #     - "8000:8000"
+  #   depends_on:
+  #     - go-pdf-service
+
+  go-pdf-service:
+    build: ./pdf-service
+    container_name: go-pdf-service
+    ports:
+      - "8080:8080"
